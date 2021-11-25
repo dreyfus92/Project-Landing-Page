@@ -85,13 +85,128 @@ ul{
 .subcontainer21{
     display: flex;
     justify-content: center;
+    padding:15px;
+    font-size: 24px;
+    font-weight: bolder;
 }
 
 .subcontainer22{
     display:flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap:30px;
 }
+
+.caja1{
+    border: 3px solid #009DFF;
+    border-radius: 40px;
+    height:150px;
+    width: 150px;
+}
+
+.caja2{
+    border: 3px solid #009DFF;
+    border-radius: 40px;
+    height:150px;
+    width: 150px;
+}
+
+.caja3{
+    border: 3px solid #009DFF;
+    border-radius: 40px;
+    height:150px;
+    width: 150px;
+}
+
+.caja4{
+    border: 3px solid #009DFF;
+    border-radius: 40px;
+    height:150px;
+    width: 150px;
+}
+.subcontainer23{
+    display:flex;
+    justify-content: center;
+    gap:15x;
+}
+
+.texto1{
+    height:50px;
+    width: 150px;
+    padding: 15px;
+}
+
+.texto2{
+    height: 50px;
+    width: 150px;
+    padding: 15px;
+}
+
+.texto3{
+    height: 50px;
+    width: 150px;
+    padding: 15px;
+}
+
+.texto4{
+    height: 50px;
+    width: 150px;
+    padding: 15px;
+}
+
+.container3{
+    display: flex;
+    background-color: #e5e7eb;
+    justify-content: center;
+}
+
+.texto5{
+    font-size: 30px;
+    font-style: italic;
+    text-align: left;
+    height: auto;
+    width: 18cm;
+}
+
+.container4{
+    padding: 1.5cm;
+    background-color: white;
+}
+
+.subcontainer41{
+    background-color:#3882f6 ;
+    display:flex;
+    justify-content: center;
+    flex: 3 1;
+    padding: 10px;
+}
+
+.subcontainer42{
+    color:white;
+
+}
+
+.button2{
+	box-shadow: 0px 1px 0px 0px #f0f7fa;
+	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+	background-color:#33bdef;
+	border-radius:6px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+    height:35px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
 footer{
+    padding:1cm;
     display:flex;
     justify-content: center;
     background-color: #e5e7eb;
